@@ -1,0 +1,230 @@
+.home__main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* sc1  */
+.home__sc1 {
+  background-image: url(../asset/imagenes/fondo-sc1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 80px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.home__sc1-fondo {
+  position: absolute;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+
+  background-color: rgba(0, 0, 0, 0.349);
+}
+
+.home__sc1-box {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1200px;
+  min-height: 400px;
+
+  padding: 20px;
+  gap: 40px;
+  z-index: 5;
+
+  background-color: rgba(0, 0, 0, 0.687);
+  color: rgb(192, 192, 192);
+}
+
+.home__sc1-container-buttons {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+
+.home__sc1-buttons {
+  width: 150px;
+  height: 30px;
+
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 20px;
+  font-weight: 600;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+.home__sc1-buttons:hover {
+  background-color: rgb(169, 114, 10);
+  color: white;
+}
+
+
+/* sc2  */
+
+.home__sc2 {
+  display: grid;
+  width: 100%;
+  min-height: 600px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background: linear-gradient(
+    90deg, 
+    rgb(222, 148, 11),
+    rgb(176, 117, 8),
+    rgb(104, 69, 3)
+  );
+
+  align-items: center;
+  justify-items: center;
+}
+
+
+.home__sc2-card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 600px;
+
+  padding: 20px;
+  gap: 10px;
+
+  background: linear-gradient(
+    rgb(27, 27, 27),
+    rgb(18, 18, 18),
+    rgb(11, 11, 11)
+  );
+  border-radius: 10px;
+  font-size: 20px;
+
+  color: white;
+}
+
+
+.home__sc2-card-container-img {
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+.home__sc2-card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.home__sc2-card-container-buttons {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  gap: 10px;
+
+  align-items: center;
+}
+
+.home__sc2-card-title {
+  color: orange;
+}
+
+.home__sc2-card-buttons {
+  display: flex;
+  width: 150px;
+  height: 30px;
+
+  border-radius: 20px;
+  border: none;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .3s ease;
+} 
+
+.btn-comprar {
+  background-color: orange;
+} 
+
+.btn-comprar:hover {
+  background-color: rgb(166, 111, 8);
+  color: white;
+} 
+
+
+.btn-carrito:hover {
+  background-color: rgb(162, 162, 162);
+}
+
+
+/* sc3  */
+
+/* Estilos para la sección de testimonios */
+.home__sc3 {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  background: linear-gradient(
+    rgb(36, 36, 36),
+    rgb(16, 16, 16),
+    rgb(10, 10, 10)
+  ) ;
+}
+
+.home__sc3-card-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(181, 127, 41);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.home__sc3-card-container-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.home__sc3-card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.home__sc3-card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home__sc3-comentario {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #3b3b3b;
+}
+
+
