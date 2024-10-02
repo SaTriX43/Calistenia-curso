@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Calistenia-curso/static/css/main.c744764f.css",
+    "main.js": "/Calistenia-curso/static/js/main.d15af0ef.js",
+    "static/media/handstand.png": "/Calistenia-curso/static/media/handstand.51f8f30e61a0ea6d65f2.png",
+    "static/media/full-planche.png": "/Calistenia-curso/static/media/full-planche.4fad33e7616f2c60e544.png",
+    "static/media/back-level.png": "/Calistenia-curso/static/media/back-level.d99f5a0a4d496c89dad9.png",
+    "static/media/persona3.png": "/Calistenia-curso/static/media/persona3.8fb4e96e56d9ce061abb.png",
+    "static/media/front-lever.png": "/Calistenia-curso/static/media/front-lever.1741a8f2cd55c3e7f2c2.png",
+    "static/media/efesto.png": "/Calistenia-curso/static/media/efesto.8354f53a10628d8c5759.png",
+    "static/media/Muscle-Up.png": "/Calistenia-curso/static/media/Muscle-Up.d7ea6756b519612c0c72.png",
+    "static/media/fondo-sc1.png": "/Calistenia-curso/static/media/fondo-sc1.1079f634ee6e370848e6.png",
+    "static/media/persona2.png": "/Calistenia-curso/static/media/persona2.572cad820fe901eb7733.png",
+    "static/media/persona1.png": "/Calistenia-curso/static/media/persona1.dff6486afc45ea1a4c48.png",
+    "index.html": "/Calistenia-curso/index.html",
+    "main.c744764f.css.map": "/Calistenia-curso/static/css/main.c744764f.css.map",
+    "main.d15af0ef.js.map": "/Calistenia-curso/static/js/main.d15af0ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c744764f.css",
+    "static/js/main.d15af0ef.js"
+  ]
+}
